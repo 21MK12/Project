@@ -7,6 +7,12 @@ public class TestHelloWorld {
         hw.print_current_Date_and_Time();
         hw.print_massage();
     }
+    @Test
+    public void print_current_Date_and_Time() {
 
+    }
 
+    @Test
+    public void print_massage() {
+    }
 }

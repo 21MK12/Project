@@ -50,6 +50,24 @@ public class Hello_World extends Thread {
 
             switch (calendar.get(Calendar.HOUR)) {
 
+                case 0:
+                    System.out.println(night);
+                    break;
+                case 1:
+                    System.out.println(night);
+                    break;
+                case 2:
+                    System.out.println(night);
+                    break;
+                case 3:
+                    System.out.println(night);
+                    break;
+                case 4:
+                    System.out.println(night);
+                    break;
+                case 5:
+                    System.out.println(night);
+                    break;
                 case 6:
                     System.out.println(morning);
                     break;
@@ -102,24 +120,6 @@ public class Hello_World extends Thread {
                     System.out.println(evening);
                     break;
                 case 23:
-                    System.out.println(night);
-                    break;
-                case 0:
-                    System.out.println(night);
-                    break;
-                case 1:
-                    System.out.println(night);
-                    break;
-                case 2:
-                    System.out.println(night);
-                    break;
-                case 3:
-                    System.out.println(night);
-                    break;
-                case 4:
-                    System.out.println(night);
-                    break;
-                case 5:
                     System.out.println(night);
                     break;
             }
