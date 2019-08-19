@@ -27,7 +27,7 @@ public class TestHelloWorld {
         hw.print_massage();
     }
     @Test
-    public void print_current_Date_and_Time() {
+    public void print_current_Time() {
 
     }
 

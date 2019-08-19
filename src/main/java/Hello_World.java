@@ -22,10 +22,9 @@ public class Hello_World {
 
 
     public void print_current_Time() {
-        logger.info("Начало работы метода вывода текущего времени.");
-        DateFormat dateFormat = new SimpleDateFormat(" HH:mm:ss");
+        logger.info("Начало работы метода вывода текущей даты и времени.");
         Calendar cal = Calendar.getInstance();
-        System.out.println(dateFormat.format(cal.getTime()));
+        System.out.println(cal);
     }
 
     public void print_massage() {
@@ -48,32 +47,8 @@ public class Hello_World {
             String evening = property.getProperty("hw.evening");
             String night = property.getProperty("hw.night");
 
-            switch (calendar.get(Calendar.HOUR)) {
+            switch (calendar.get(Calendar.HOUR_OF_DAY)) {
 
-                case 0:
-                    System.out.println(night);
-                    logger.info("Вывод на консоль: Good night, World!");
-                    break;
-                case 1:
-                    System.out.println(night);
-                    logger.info("Вывод на консоль: Good night, World!");
-                    break;
-                case 2:
-                    System.out.println(night);
-                    logger.info("Вывод на консоль: Good night, World!");
-                    break;
-                case 3:
-                    System.out.println(night);
-                    logger.info("Вывод на консоль: Good night, World!");
-                    break;
-                case 4:
-                    System.out.println(night);
-                    logger.info("Вывод на консоль: Good night, World!");
-                    break;
-                case 5:
-                    System.out.println(night);
-                    logger.info("Вывод на консоль: Good night, World!");
-                    break;
                 case 6:
                     System.out.println(morning);
                     logger.info("Вывод на консоль: Good morning, World!");
@@ -143,6 +118,30 @@ public class Hello_World {
                     logger.info("Вывод на консоль: Good evening, World!");
                     break;
                 case 23:
+                    System.out.println(night);
+                    logger.info("Вывод на консоль: Good night, World!");
+                    break;
+                case 0:
+                    System.out.println(night);
+                    logger.info("Вывод на консоль: Good night, World!");
+                    break;
+                case 1:
+                    System.out.println(night);
+                    logger.info("Вывод на консоль: Good night, World!");
+                    break;
+                case 2:
+                    System.out.println(night);
+                    logger.info("Вывод на консоль: Good night, World!");
+                    break;
+                case 3:
+                    System.out.println(night);
+                    logger.info("Вывод на консоль: Good night, World!");
+                    break;
+                case 4:
+                    System.out.println(night);
+                    logger.info("Вывод на консоль: Good night, World!");
+                    break;
+                case 5:
                     System.out.println(night);
                     logger.info("Вывод на консоль: Good night, World!");
                     break;
